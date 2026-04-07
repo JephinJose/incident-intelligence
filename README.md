@@ -2,7 +2,7 @@
 
 ![Dashboard](screenshots/dashboard.png)
 
-A multi-agent system for automated incident analysis and runbook generation. When an alert fires, a pipeline of specialized AI agents — log analyst, metrics correlator, root cause investigator, and runbook writer — work sequentially to triage the incident and produce actionable remediation steps.
+A multi-agent system for automated incident analysis and runbook generation. When an alert fires, a pipeline of specialized AI agents - log analyst, metrics correlator, root cause investigator, and runbook writer - work sequentially to triage the incident and produce actionable remediation steps.
 
 The backend is FastAPI with SQLite. The frontend is a React/Vite dashboard. Everything runs via Docker Compose.
 
